@@ -1,4 +1,4 @@
-package com.example.bwapp.ui.notifications
+package de.strobenried.bwapp.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

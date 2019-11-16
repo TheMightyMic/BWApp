@@ -1,4 +1,4 @@
-package com.example.bwapp.ui.dashboard
+package de.strobenried.bwapp.ui.dashboard
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,8 +7,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.bwapp.R
-import com.example.bwapp.ui.dashboard.DashboardViewModel
+import com.strobenried.bwapp.R
 
 class DashboardFragment : Fragment() {
 

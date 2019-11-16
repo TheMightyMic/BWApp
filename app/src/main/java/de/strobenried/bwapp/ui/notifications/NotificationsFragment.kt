@@ -1,4 +1,4 @@
-package com.example.bwapp.ui.notifications
+package de.strobenried.bwapp.ui.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.example.bwapp.R
+import com.strobenried.bwapp.R
 
 class NotificationsFragment : Fragment() {
 
