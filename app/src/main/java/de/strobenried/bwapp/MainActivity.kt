@@ -7,7 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.strobenried.bwapp.R
+import de.strobenried.bwapp.R
 
 class MainActivity : AppCompatActivity() {
 

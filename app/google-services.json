@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "937289184404",
+    "firebase_url": "https://bwapp-f7779.firebaseio.com",
+    "project_id": "bwapp-f7779",
+    "storage_bucket": "bwapp-f7779.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937289184404:android:2b91291f402abaf92cb081",
+        "android_client_info": {
+          "package_name": "de.strobenried.bwapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "937289184404-3d4ildqi8hl019a83n3suv0t1cglhtp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIx0FD9dkh-4DQDncBbH6WNLwDbIFucoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "937289184404-3d4ildqi8hl019a83n3suv0t1cglhtp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
