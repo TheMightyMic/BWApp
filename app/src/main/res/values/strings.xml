@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">Bauwagen Strobenried</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Bier</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Moi Schaun</string>
     <string name="email_hint">Deine E-Mail Adresse</string>
     <string name="password_hint">Dein Passwort</string>
     <string name="signup_btn">Anmelden</string>
     <string name="login_btn">Einloggen</string>
     <string name="get_password_link">Passwort zuschicken</string>
     <string name="back">Zurück</string>
+    <string name="button">Bier Mich :)</string>
 
 </resources>
