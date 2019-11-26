@@ -13,5 +13,6 @@
     <string name="login_field_missing">Bitte alle Felder ausfüllen</string>
     <string name="login_success">Du bist angemeldet</string>
     <string name="login_failed">DLogin fehlgeschlagen</string>
+    <string name="splash_top_message">Auf gehts</string>
 
 </resources>
