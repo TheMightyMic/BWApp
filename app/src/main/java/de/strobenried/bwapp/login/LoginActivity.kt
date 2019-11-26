@@ -49,7 +49,7 @@ class LoginActivity : AppCompatActivity() {
             val password: String = passwordEt.text.toString()
 
             if(TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
-                Toast.makeText(this@LoginActivity, "Please fill all the fields", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@LoginActivity, getString(R.string.login_field_missing), Toast.LENGTH_LONG).show()
             } else{
                 loginToDb(email,password)
             }
@@ -69,13 +69,13 @@ class LoginActivity : AppCompatActivity() {
     private fun loginToDb(email: String, password: String) {
         auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this, OnCompleteListener { task ->
             if(task.isSuccessful) {
-                Toast.makeText(this, "Successfully Logged In", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.login_success), Toast.LENGTH_LONG).show()
                 saveAuthValues(email,password)
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }else {
-                Toast.makeText(this, "Login Failed", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, getString(R.string.login_failed), Toast.LENGTH_LONG).show()
             }
         })
     }

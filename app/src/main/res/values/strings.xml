@@ -10,5 +10,8 @@
     <string name="get_password_link">Passwort zuschicken</string>
     <string name="back">Zurück</string>
     <string name="button">Bier Mich :)</string>
+    <string name="login_field_missing">Bitte alle Felder ausfüllen</string>
+    <string name="login_success">Du bist angemeldet</string>
+    <string name="login_failed">DLogin fehlgeschlagen</string>
 
 </resources>
